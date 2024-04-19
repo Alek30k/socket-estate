@@ -4,7 +4,7 @@ const io = new Server({
   cors: {
     // origin: "http://localhost:5173",
     origin: "https://estate-app-beta.vercel.app/",
-    origin: "https://estate-app-backend-rrai.onrender.com/",
+    // origin: "https://estate-app-backend-rrai.onrender.com/",
   },
 });
 
@@ -40,4 +40,4 @@ io.on("connection", (socket) => {
   });
 });
 
-io.listen("https://socket-estate.onrender.com");
+io.listen("4000");
