@@ -3,8 +3,7 @@ import { Server } from "socket.io";
 const io = new Server({
   cors: {
     // origin: "http://localhost:5173",
-    origin: "https://estate-app-beta.vercel.app/",
-    // origin: "https://estate-app-backend-rrai.onrender.com/",
+    origin: "*",
   },
 });
 
